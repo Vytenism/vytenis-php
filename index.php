@@ -1,10 +1,14 @@
+
 <html>
     <head>
         <meta charset="8">
-        <title>PHP lydes ir <?php print date('l', strtotime('+24 hours')); ?></title>    
+        <title><?php //Komentarai; ?></title>    
     </head>
     <body>
-        <h1>Vytenis - PHP su manim buvo ir <?php print date('h', strtotime('-1 hours')) . ' valanda'; ?> </h1>
-        <p><?php print date('Y', strtotime('next year')); ?> uz kalnu!</p>
+        <h1><?php // Dainu tekstai; ?> </h1>
+        <h2><?php // paragrafo daina ?></h2>
+        <p><?php // As toks vienisas jaunas paragrafas... ; ?></p>
+        <p><?php // Mindau svetimo kodo gatves... ?></p>
     </body>
 </html>
+
