@@ -5,10 +5,10 @@
         <title>Komentarai</title>    
     </head>
     <body>
-        <h1>Dainu tekstai</h1>
+        <h1><?php //Dainu tekstai; ?></h1>
         <h2> paragrafo daina</h2>
         <p>As toks vienisas jaunas paragrafas...</p>
-        <p><?php // Mindau svetimo kodo gatves... ; ?></p>
+        <p> Mindau svetimo kodo gatves... </p>
     </body>
 </html>
 
