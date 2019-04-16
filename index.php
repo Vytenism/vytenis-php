@@ -1,12 +1,10 @@
 <html>
     <head>
-        <title>As valdau HTML</title>
         <meta charset="8">
-        <link rel="stylesheet" type="text/css" href="style.css"
+        <title><?php print 'As,' . date("l") . 'ir' . 'PHP';?></title>    
     </head>
     <body>
-        <h1>Vytenis HTML asas!</h1>
-        <p>Moku kurti statini turini.</p>
+        <h1>Vytenis - HTML <?php print 'ir PHP';?> asas jau nuo<?php print date("Y") . 'metu' ;?> </h1>
+        <p>Viskas prasidejo <?php print date("m") . 'menesio,' . date("d") . 'diena';?></p>
     </body>
 </html>
-
