@@ -8,6 +8,7 @@
 ?>
 <html>
     <head>
+        <meta charset="8">
         <title>title</title>
     </head>
     <body>
