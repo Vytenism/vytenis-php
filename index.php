@@ -1,13 +1,14 @@
 <?php
-$tu = 123;
-$as = 'masina';
-$jis = 3.11;
-$mes = false;
-$jie = NULL;
 
-print $tu;
-print $as;
-print $jis;
-print $mes;
-print $jie;
+$string = 123;
+$integer = 'masina';
+$float = 3.11;
+$boolean = false;
+$nothing = NULL;
+
+print "$tu <br>"; 
+print "$as <br>";
+print "$jis <br>";
+print "$mes <br>";
+print "$jie <br>";
 ?>
