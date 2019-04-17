@@ -11,7 +11,7 @@
         <title>title</title>
     </head>
     <body>
-    <div class="body1">
+    <div>
         <h1>Skolos skaicuokle</h1>
         <h3>Jei paemei <?php print $integer1;?> jievru</h3>
         <h3>Su dviem kabanciais grazinsi <?php print $integer3;?></h3>
