@@ -1,14 +1,14 @@
 <?php
-
-$string = 123;
-$integer = 'masina';
-$float = 3.11;
-$boolean = false;
-$nothing = NULL;
-
-print "$string <br>"; 
-print "$integer <br>";
-print "$float <br>";
-print "$boolean <br>";
-print "$nothing <br>";
+$img = 'monkey.jpg';
 ?>
+<html>
+    <head>
+        <title>title</title>
+    </head>
+    <body>
+        <img src="<?php print $img; ?>">
+        <img src="<?php print $img; ?>">
+        <img src="<?php print $img; ?>">
+        <img src="<?php print $img; ?>">
+    </body>
+</html>
