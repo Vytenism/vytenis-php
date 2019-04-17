@@ -3,8 +3,7 @@
     $eur1 = rand(1,100);
     $eur2 = rand(101,200);
     $eur3 = rand(201,300);
-    $eur4 = rand(301,400);
-    
+        
 ?>
 <html>
     <head>
