@@ -1,36 +1,59 @@
-<?php
-$sunny = rand(0,1);
-$rain = rand(0,1);
+<?php 
 
-if ($sunny && $rain) {
-    $css_class = 'fas fa-rainbow';
-    $textone = 'Rainbow';
-} elseif ($sunny && !$rain) {
-    $css_class = 'far fa-sun';
-    $textone = 'Sunny';
-} elseif (!$sunny && $rain) {
-    $css_class = 'fas fa-cloud-rain';
-    $textone = 'Rain';
+$lygine = date('s');
+$even = $lygine % 2;
+
+
+if ($even == 0) {
+    $css_class = 'kvadratas';
+    $text = 'lyginis';
 } else {
-    $css_class = 'fas fa-cloud-showers-heavy';
-    $textone = 'cloudy';
+    $css_class = 'apskritimas';
+    $text = 'nelyginis';
 }
 ?>
 
 <html>
     <head>
-        <title>asa</title>
+        <title>abac</title>
         <meta charset="UTF-8">
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+        <style type="text/css">
+            .kvadratas {
+                height: 250px;
+                width: 250px;
+                background-color: red;
+                box-shadow: 2px 5px aqua;
+            }
+            .apskritimas {
+                height: 250px;
+                width: 250px;
+                background-color: blue;
+                border-radius: 50%;
+                box-shadow: 2px 5px black;
+            }
+            .cent {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: nowrap;
+                justify-content: center;
+                align-items: center;
+                align-content: center;
+            }
+            .centr {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: nowrap;
+                justify-content: center;
+                align-items: center;
+                align-content: center;
+                height: 500px;
+            }
+        </style>
     </head>
     <body>
-        <div class="container">
-            <div class="<?php print $css_class ;?>">
-                <h1><?php print $textone ;?></h1>
-            </div>
+        <div class="container centr">
+        <div class="<?php print $css_class ;?> cent"><?php print $text ;?></div>
         </div>
     </body>
 </html>
-
-
 
