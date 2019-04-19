@@ -16,20 +16,21 @@ if ($even == 0) {
 <html>
     <head>
         <title>abac</title>
+        <meta http-equiv="refresh" content="1">
         <meta charset="UTF-8">
         <style type="text/css">
             .kvadratas {
                 height: 250px;
                 width: 250px;
                 background-color: red;
-                box-shadow: 2px 5px aqua;
+                box-shadow: 50px 50px aqua;
             }
             .apskritimas {
                 height: 250px;
                 width: 250px;
                 background-color: blue;
                 border-radius: 50%;
-                box-shadow: 2px 5px black;
+                box-shadow: 50px 50px black;
             }
             .cent {
                 display: flex;
