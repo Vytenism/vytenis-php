@@ -6,13 +6,13 @@ if ($sunny && $rain) {
     $css_class = 'fas fa-rainbow';
     $textone = 'Rainbow';
 } elseif ($sunny && !$rain) {
-    $css_class = 'fal fa-sun';
+    $css_class = 'far fa-sun';
     $textone = 'Sunny';
 } elseif (!$sunny && $rain) {
-    $css_class = 'fas fa-raindrops';
+    $css_class = 'fas fa-cloud-rain';
     $textone = 'Rain';
 } else {
-    $css_class = 'far fa-clouds';
+    $css_class = 'fas fa-cloud-showers-heavy';
     $textone = 'cloudy';
 }
 ?>
